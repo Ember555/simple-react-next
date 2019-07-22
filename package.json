@@ -29,7 +29,7 @@
   "scripts": {
     "tailwind:css": "tailwind build src/styles/styles.src.css -c tailwind.js -o src/styles/styles.css",
     "lint": "eslint ./src",
-    "dev": "yarn tailwind:css && export NODE_ENV=development && next -p 8083 ./src",
+    "dev": "yarn tailwind:css && export NODE_ENV=development && next -p 8883 ./src",
     "export": "next export -o dist ./src",
     "test": "echo done"
   },
