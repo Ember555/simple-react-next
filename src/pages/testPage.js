@@ -12,17 +12,11 @@ const FormItem = Form.Item
 class TestPage extends Component {
   state = { loading: false, alert: false }
 
-  componentWillReceiveProps(nextProps) {
-    // const { loading, alert } = nextProps
-    // this.setState({ loading })
-    // this.setState({ alert })
-  }
-
   handleSubmit = e => {
     e.preventDefault()
     const {
       dispatch,
-      form: { validateFields, getFieldsValue },
+      form: { validateFields, getFieldsValue }
     } = this.props
     return validateFields(error => {
       if (error) {
@@ -31,8 +25,8 @@ class TestPage extends Component {
       const { filename } = getFieldsValue()
       return dispatch(
         submittestPage({
-          filename,
-        }),
+          filename
+        })
       )
     })
   }

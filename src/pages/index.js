@@ -3,7 +3,6 @@ import Link from "next/link"
 import { connect } from "react-redux"
 
 import routes from "../config/routes"
-import SocketProvider from "../provider/socket"
 
 const Index = () => (
   <div className="bg-white">

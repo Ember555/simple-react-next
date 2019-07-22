@@ -16,6 +16,15 @@ export const testPage = {
   next: '/',
   src: '',
 }
+
+export const flameGraph = {
+  key: 'flameGraph',
+  name: 'flameGraph',
+  title: 'Flame Graph',
+  desc:
+    'Some FlameGraph',
+  path: '/flameGraph',
+}
 // export const credential = {
 //   key: 'credential',
 //   name: 'Credential',
@@ -87,6 +96,7 @@ export const testPage = {
 const routes = [
   index,
   testPage,
+  flameGraph,
   // profile,
   // credential,
   // notification,
