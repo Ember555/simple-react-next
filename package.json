@@ -1,7 +1,7 @@
 {
   "name": "Simple-React-App",
   "main": "index.js",
-  "version": "2.0.3-alpha.2",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Simple React App",
   "dependencies": {

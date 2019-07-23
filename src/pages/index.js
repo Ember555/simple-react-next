@@ -28,6 +28,13 @@ const Index = () => (
               </a>
             </Link>
           </div>
+          <div className="flex w-full justify-center mt-16">
+            <Link href="/hookPage">
+              <a className="bg-blue hover:bg-blue-dark text-white font-bold py-4 px-4 rounded-full inline-flex items-center no-underline">
+                Hook Page
+              </a>
+            </Link>
+          </div>
         </div>
       </section>
       {/* section */}

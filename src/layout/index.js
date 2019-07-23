@@ -3,14 +3,14 @@ import { connect } from "react-redux"
 
 const maxWidth = 1024
 
-const Index = ({ route, children }) => {
+const Index = ({ route, currentPage, children }) => {
   return (
     <div className="flex flex-col font-mono bg-grey-lightest">
       {/* header */}
       <header className="sticky pin-x pin-t bg-black">
         <div className="flex justify-center">
           <p className="font-bold text-lg text-center text-grey-dark mt-2">
-            Test Page
+            {currentPage}
           </p>
         </div>
       </header>

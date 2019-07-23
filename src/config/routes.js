@@ -16,6 +16,14 @@ export const testPage = {
   next: '/',
   src: '',
 }
+export const hookPage = {
+  key: 'hookPage',
+  name: 'HookPage',
+  title: 'Hook Page',
+  desc:
+    'example of hook',
+  path: '/hookPage',
+}
 // export const credential = {
 //   key: 'credential',
 //   name: 'Credential',
