@@ -31,7 +31,8 @@
     "lint": "eslint ./src",
     "dev": "yarn tailwind:css && export NODE_ENV=development && next -p 8883 ./src",
     "export": "next export -o dist ./src",
-    "test": "echo done"
+    "test": "echo done",
+    "build": "yarn tailwind:css && export NODE_ENV=production && next build ./src && next export -o dist ./src"
   },
   "devDependencies": {
     "@types/react": "^16.4.14",
